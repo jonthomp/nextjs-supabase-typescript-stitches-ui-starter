@@ -26,5 +26,3 @@ A starter I'm currently using for web projects. Typescript with NextJS, Supabase
 - add jest
 - document everything / update readme
 - dark option to detect browser setting
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/nextjs-supabase-typescript-stitches-ui-starter)
