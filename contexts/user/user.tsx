@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect, useRef } from "react";
 import { User, Session } from "@supabase/supabase-js";
-import { supabasePublic } from "../lib/supabase/supabasePublic";
+import { supabasePublic } from "../../lib/supabase/supabasePublic";
 import { useQueryClient } from "react-query";
 import { useRouter } from "next/router";
 
@@ -62,7 +62,7 @@ export const UserContextProvider = ({
   }, [queryClient, initialValue, router]);
 
   const value = { user, session };
-  
+
   return <UserContext.Provider value={value}>{children}</UserContext.Provider>;
 };
 

@@ -3,12 +3,10 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import { Hydrate } from "react-query/hydration";
 
 import "../styles/globals.css";
-import { UserContextProvider } from "../hooks/user";
-import { usePanelbear } from "../hooks/panelBear";
-import { DarkModeContextProvider } from "../hooks/darkMode";
+import { UserContextProvider } from "../contexts/user";
+import { DarkModeContextProvider } from "../contexts/darkMode";
 
 function MyApp({ Component, pageProps }) {
-
   const [queryClient] = useState(
     () =>
       new QueryClient({

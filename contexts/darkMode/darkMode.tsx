@@ -6,7 +6,7 @@ import {
   useContext,
 } from "react";
 
-import { darkTheme } from "../stitches.config";
+import { darkTheme } from "../../stitches.config";
 
 const STORAGE_KEY =
   process.env.NEXT_PUBLIC_DARK_MODE_STORAGE_KEY || "dark-mode";
