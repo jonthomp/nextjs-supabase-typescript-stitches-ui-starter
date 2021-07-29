@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { styled } from "../stitches.config";
+import { styled } from "../../stitches.config";
 
 const StyledLayout = styled("div", {
   minHeight: "100vh",
@@ -40,7 +40,7 @@ const StyledFooter = styled("div", {
 
 export const Layout = ({ children }) => {
   return (
-    <StyledLayout>
+    <StyledLayout data-testid="layout">
       <StyledMain>{children}</StyledMain>
 
       <StyledFooter>

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Layout /> Renders the default Layout with children 1`] = `
+<DocumentFragment>
+  <div
+    class="c-hoGnYm"
+    data-testid="layout"
+  >
+    <div
+      class="c-kcbfpd"
+    >
+      Hello world
+    </div>
+    <div
+      class="c-hdjAns"
+    >
+      <a
+        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Powered by 
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
