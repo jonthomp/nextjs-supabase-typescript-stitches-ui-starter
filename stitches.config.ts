@@ -35,8 +35,7 @@ export const {
     fonts: {
       normal:
         "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
-      mono:
-        "Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace",
+      mono: "Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace",
     },
     fontWeights: {
       normal: "normal",
@@ -64,66 +63,66 @@ export const {
     sm: "(max-width: 600px)",
   },
   utils: {
-    m: config => value => ({
+    m: (config) => (value) => ({
       marginTop: value,
       marginBottom: value,
       marginLeft: value,
       marginRight: value,
     }),
-    mt: config => value => ({
+    mt: (config) => (value) => ({
       marginTop: value,
     }),
-    mr: config => value => ({
+    mr: (config) => (value) => ({
       marginRight: value,
     }),
-    mb: config => value => ({
+    mb: (config) => (value) => ({
       marginBottom: value,
     }),
-    ml: config => value => ({
+    ml: (config) => (value) => ({
       marginLeft: value,
     }),
-    mx: config => value => ({
+    mx: (config) => (value) => ({
       marginLeft: value,
       marginRight: value,
     }),
-    my: config => value => ({
+    my: (config) => (value) => ({
       marginTop: value,
       marginBottom: value,
     }),
-    p: config => value => ({
+    p: (config) => (value) => ({
       paddingTop: value,
       paddingBottom: value,
       paddingLeft: value,
       paddingRight: value,
     }),
-    pt: config => value => ({
+    pt: (config) => (value) => ({
       paddingTop: value,
     }),
-    pr: config => value => ({
+    pr: (config) => (value) => ({
       paddingRight: value,
     }),
-    pb: config => value => ({
+    pb: (config) => (value) => ({
       paddingBottom: value,
     }),
-    pl: config => value => ({
+    pl: (config) => (value) => ({
       paddingLeft: value,
     }),
-    px: config => value => ({
+    px: (config) => (value) => ({
       paddingLeft: value,
       paddingRight: value,
     }),
-    py: config => value => ({
+    py: (config) => (value) => ({
       paddingTop: value,
       paddingBottom: value,
     }),
-    size: config => value => ({
+    size: (config) => (value) => ({
       width: value,
       height: value,
     }),
   },
 });
 
-export const darkTheme = theme({
+export const darkTheme = theme("dark-mode", {
   colors: {
     background: "black",
     text: "white",

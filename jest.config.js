@@ -17,6 +17,7 @@ const config = {
   setupFilesAfterEnv: [
     "@testing-library/jest-dom/extend-expect",
     "jest-extended",
+    "jest-localstorage-mock",
     "<rootDir>/jest.setup.ts",
   ],
   transformIgnorePatterns: [

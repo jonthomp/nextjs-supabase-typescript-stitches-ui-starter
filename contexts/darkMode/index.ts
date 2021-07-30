@@ -1,1 +1,1 @@
-export * from "./darkMode";
+export { useDarkMode, DarkModeContextProvider } from "./darkMode";
